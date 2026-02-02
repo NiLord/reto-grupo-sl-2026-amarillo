@@ -10,7 +10,6 @@ Este proyecto implementa la **Capa de Presentación** de una Arquitectura de 3 C
 
 ## Stack Tecnológico
 * **React 18:** Manejo de estado y componentes reactivos.
-* **Tailwind CSS:** Diseño UI/UX moderno y responsive (Utility-first).
 * **Vite:** Entorno de desarrollo ultrarrápido.
 * **Fetch API:** Conexión asíncrona con el Backend REST.
 

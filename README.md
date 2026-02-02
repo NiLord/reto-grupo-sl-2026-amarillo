@@ -12,6 +12,9 @@ Este proyecto implementa la **Capa de Presentación** de una Arquitectura de 3 C
 * **React 18:** Manejo de estado y componentes reactivos.
 * **Vite:** Entorno de desarrollo ultrarrápido.
 * **Fetch API:** Conexión asíncrona con el Backend REST.
+* **MySQL:** Base de datos
+* **Docker:** Alojamiento de base de dato en máquina local
+* **phpMyAdmin:** Administrador de DB
 
 ## Funcionalidades Principales
 1.  **Catálogo Visual:** Renderizado dinámico de productos con imágenes y control de stock.

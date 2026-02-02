@@ -37,6 +37,7 @@ frontend/
 │   ├── main.jsx         # Montaje de la aplicación React
 │   └── index.css        # Directivas de Tailwind
 ├── public/              # Assets estáticos[Proyecto_Rally.sql](https://github.com/user-attachments/files/25024648/Proyecto_Rally.sql)
+└── package.json         # Dependencias del proyecto
 
 ## SCRIPT DE LA BASE DE DATOS
 -- phpMyAdmin SQL Dump
@@ -161,5 +162,3 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-
-└── package.json         # Dependencias del proyecto

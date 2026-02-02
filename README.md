@@ -37,6 +37,8 @@ frontend/
 │   ├── main.jsx         # Montaje de la aplicación React
 │   └── index.css        # Directivas de Tailwind
 ├── public/              # Assets estáticos[Proyecto_Rally.sql](https://github.com/user-attachments/files/25024648/Proyecto_Rally.sql)
+
+--- SCRIPT DE LA BASE DE DATOS ---
 -- phpMyAdmin SQL Dump
 -- version 5.2.3
 -- https://www.phpmyadmin.net/

@@ -4,8 +4,8 @@ Solución de Frontend moderna para el reto de Máquina Expendedora - Rally Enero
 Este proyecto implementa la **Capa de Presentación** de una Arquitectura de 3 Capas.
 
 ## Equipo
-* **Frontend:** Moisés & [Nombre de tu Compañera]
-* **Backend:** [Nombres de los compañeros de Back]
+* **Frontend:** Moisés Delgado, Emily Barba
+* **Backend:** Alexis Pinel, Gabriel Armuelles, Eric Soto, Denilson Alvarado.
 * **Grupo:** SL 2026 Amarillo
 
 ## Stack Tecnológico
@@ -17,6 +17,7 @@ Este proyecto implementa la **Capa de Presentación** de una Arquitectura de 3 C
 ## Funcionalidades Principales
 1.  **Catálogo Visual:** Renderizado dinámico de productos con imágenes y control de stock.
 2.  **Carrito Inteligente:**
+
     * Permite seleccionar múltiples unidades.
     * Valida contra el stock disponible en tiempo real.
 3.  **Sistema de Pago Simulado:**

@@ -29,7 +29,6 @@ Este proyecto implementa la **Capa de Presentación** de una Arquitectura de 3 C
 ## Estructura del Proyecto
 El código sigue una estructura modular para facilitar la escalabilidad:
 
-```text
 frontend/
 ├── index.html           # Punto de entrada (con inyección de Tailwind)
 ├── src/
@@ -38,7 +37,7 @@ frontend/
 │   └── index.css        # Directivas de Tailwind
 ├── public/              # Assets estáticos[Proyecto_Rally.sql](https://github.com/user-attachments/files/25024648/Proyecto_Rally.sql)
 
---- SCRIPT DE LA BASE DE DATOS ---
+## SCRIPT DE LA BASE DE DATOS
 -- phpMyAdmin SQL Dump
 -- version 5.2.3
 -- https://www.phpmyadmin.net/

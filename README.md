@@ -29,6 +29,7 @@ Este proyecto implementa la **Capa de Presentación** de una Arquitectura de 3 C
 ## Estructura del Proyecto
 El código sigue una estructura modular para facilitar la escalabilidad:
 
+```
 frontend/
 ├── index.html           # Punto de entrada (con inyección de Tailwind)
 ├── src/

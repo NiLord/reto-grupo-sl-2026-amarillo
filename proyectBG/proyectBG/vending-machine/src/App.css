@@ -1,0 +1,203 @@
+:root {
+  --primary: #2563eb;
+  --success: #16a34a;
+  --dark: #1e293b;
+  --text: #334155;
+}
+
+.vending-app {
+  background-color: #f8fafc;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  color: var(--text);
+}
+
+.vending-header h1 {
+  text-align: center;
+  color: var(--dark);
+  margin-bottom: 2rem;
+  letter-spacing: -1px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .main-content { grid-template-columns: 1fr; }
+}
+
+
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.card-producto {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.card-producto:hover { transform: translateY(-5px); }
+
+.contenedor-foto {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.producto-foto {
+  max-height: 100px;
+  max-width: 100px;
+  object-fit: contain;
+}
+
+.precio {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--primary);
+  margin: 0.5rem 0;
+}
+
+.stock { font-size: 0.8rem; color: #64748b; }
+
+.controles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.controles button {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  background: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.controles button:hover { background: #f1f5f9; }
+
+
+.panel-pago {
+  background: white;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+  height: sticky;
+  top: 2rem;
+}
+
+.pantalla-digital {
+  background: #0f172a;
+  color: #38bdf8;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.pantalla-digital.saldo { color: #4ade80; }
+
+.pantalla-digital label {
+  font-size: 0.7rem;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.numero {
+  font-family: 'Courier New', monospace;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.monedas-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.monedas-grid button {
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  background: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-pagar {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: var(--success);
+  color: white;
+  border: none;
+  border-radius: 0.75rem;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-pagar:disabled { opacity: 0.3; cursor: not-allowed; }
+
+.btn-cancelar {
+  width: 100%;
+  margin-top: 1rem;
+  background: none;
+  border: none;
+  color: #94a3b8;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 0.9rem;
+}
+
+
+.bandeja-simple {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0f172a;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #334155;
+}
+
+.bandeja-simple label {
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  color: #f8fafc;
+}
+
+.cantidad-badge {
+  background: #1e293b;
+  color: #38bdf8;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  border: 1px solid #38bdf8;
+}
+
+.cantidad-badge.bill {
+  color: #4ade80;
+  border-color: #4ade80;
+}
+
+/* El resto del diseño del footer se mantiene igual que antes */
+
